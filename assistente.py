@@ -61,3 +61,7 @@ if __name__=="__main__":
     while True:
         print("escutando")
         comando = microfone().lower()
+
+        if 'hora' in comando:
+            tempo()
+
